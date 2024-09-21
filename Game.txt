@@ -1,0 +1,6 @@
+En el juego se podrá:
+
+construir(4 construcciones)
+pasar el tiempo
+población aumenta disminuye
+economía de la ciudad
