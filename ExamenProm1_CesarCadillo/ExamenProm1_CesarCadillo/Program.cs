@@ -10,6 +10,8 @@ namespace ExamenProm1_CesarCadillo
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+            game.Run();
         }
     }
 }
