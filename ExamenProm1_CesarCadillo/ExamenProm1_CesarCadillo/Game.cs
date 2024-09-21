@@ -69,8 +69,12 @@ namespace ExamenProm1_CesarCadillo
                         city.NextMonth();
                         if (city.CheckGameOver())
                         {
+                            Console.WriteLine("¡GAME OVER! Tu ciudad ha sido abandonada por tus habitantes o invadida por bolivianos");
+                            Console.WriteLine("Presiona Enter para salir...");
+                            Console.ReadKey();
                             running = false;
                         }
+
                         break;
                     case "7":
                         running = false;
