@@ -52,6 +52,23 @@ namespace ExamenProm1_CesarCadillo
             }
         }
 
+        public bool CheckGameOver()
+        {
+            if (Population <= 0)
+            {
+                Console.WriteLine("HORA DE INVADIR ESPAÑAAA");
+                return true;
+            }
+
+            if (CurrentMonth >= 15)
+            {
+                Console.WriteLine("MIGRACIÓN BOLIVIANA CORRAAAAN");
+                return true;
+            }
+
+            return false;
+        }
+
         public void NextMonth()
         {
             CurrentMonth++;
